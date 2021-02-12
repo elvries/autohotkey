@@ -3,7 +3,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-; mimic Mac behaviour for keys that are difficult to re-map in Mac
+; Mimic Mac behaviour for keys that are difficult to re-map in Mac
 LWin & Tab::AltTab ; Switch Left Windows and Tab to Alt Tab
 LWin & a::Send ^a ; Left Windows and a to select all
 LWin & s::Send ^s ; Left Windows and s to save
